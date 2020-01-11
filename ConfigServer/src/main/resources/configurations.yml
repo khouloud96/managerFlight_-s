@@ -1,0 +1,8 @@
+## YAML Template.
+---
+name:
+    value: khouloud
+spring:
+    cloud:
+        config:
+            override-system-properties: false
