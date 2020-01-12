@@ -1,0 +1,7 @@
+server:
+    port: 8222
+zuul:
+  routes:
+    ticket:
+      path: /ticket/**
+      serviceId: TicketService

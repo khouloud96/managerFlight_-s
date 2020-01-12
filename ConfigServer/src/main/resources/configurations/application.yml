@@ -1,0 +1,20 @@
+## YAML Template.
+---
+eureka:
+    instance:
+        hostname: localhost
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka/
+name:
+    value: khouloud
+spring:
+    cloud:
+        config:
+            override-system-properties: false
+spring:
+  application:
+    name: TicketService
+  sleuth:
+    sampler:
+      probability: 1            

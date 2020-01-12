@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          url-expression: "'http://'+serviceId"
+server:
+  port: 8222
+zuul:
+  routes:
+    ticket:
+      path: /ticket/**
