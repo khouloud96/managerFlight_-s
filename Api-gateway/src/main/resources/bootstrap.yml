@@ -13,3 +13,7 @@ zuul:
   routes:
     ticket:
       path: /ticket/**
+    flight:
+        path: /flight/**
+    airplane:
+        path: /airplane/**

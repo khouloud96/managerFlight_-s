@@ -5,3 +5,9 @@ zuul:
     ticket:
       path: /ticket/**
       serviceId: TicketService
+    flight:
+        path: /flight/**
+        serviceId: flight-service
+    airplane:
+        path: /airplane/**
+        serviceId: AirPlaneService
